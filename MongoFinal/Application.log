@@ -1,0 +1,25 @@
+2019-11-18 07:30:48.383  WARN 12909 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/root/.m2/repository/org/json/json/20180130/json-20180130.jar!/org/json/JSONObject.class
+	jar:file:/root/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-11-18 07:30:48.422  INFO 12909 --- [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests on darrensPC with PID 12909 (started by root in /home/darren/Desktop/Office/DS/OOP/MongoFinal)
+2019-11-18 07:30:48.430  INFO 12909 --- [main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2019-11-18 07:30:49.186  INFO 12909 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-18 07:30:49.299  INFO 12909 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106ms. Found 4 repository interfaces.
+2019-11-18 07:30:49.960  INFO 12909 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-11-18 07:30:49.961  INFO 12909 --- [main] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+2019-11-18 07:30:50.070  INFO 12909 --- [cluster-ClusterId{value='5dd1fb516e972204b4c4653b', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:2}] to localhost:27017
+2019-11-18 07:30:50.083  INFO 12909 --- [cluster-ClusterId{value='5dd1fb516e972204b4c4653b', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 1]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9090255}
+2019-11-18 07:30:50.086  INFO 12909 --- [cluster-ClusterId{value='5dd1fb516e972204b4c4653b', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+2019-11-18 07:30:50.215  WARN 12909 --- [main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-18 07:30:50.215  WARN 12909 --- [main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-18 07:30:50.345  WARN 12909 --- [main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-18 07:30:50.345  WARN 12909 --- [main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-18 07:30:51.145  INFO 12909 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 07:30:51.513  INFO 12909 --- [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 3.454 seconds (JVM running for 4.584)
+2019-11-18 07:30:51.847  INFO 12909 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
